@@ -1,0 +1,13 @@
+Aplicación de Dibujo Interactivo: Una pizarra donde el usuario puede dibujar 
+con el ratón, cambiar colores y grosores de línea
+- 
+Codifica en Processing modo P5.js el ejemplo que te fue asignado
+Mejóralo, agregándole más funcionalidades
+Convierte esa aplicación a PWA y súbela a tu repositorio en Github
+QUE DEBES ENTREGAR
+- TXT o PDF conteniendo…
+ - Instrucciones de uso de tu aplicación si fuesen necesarias
+ - TXT conteniendo solo tus peticiones de avances hechas a la IA
+ - Enlace hacia el(los) chat(s) completo(s) que tuviste con la IA
+ - Enlace hacia la aplicación PWA en tu repositorio GitHub
+- Archivo comprimido con carpeta de tu proyecto P5.js ya convertido a PWA
