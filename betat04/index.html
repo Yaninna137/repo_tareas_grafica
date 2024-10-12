@@ -7,7 +7,7 @@
   <!-- Incluyendo p5.js -->
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="t04.js"></script>
-
+  <link rel="manifest" href="manifest.json">
   <style>
     body {
       padding: 0;
@@ -169,6 +169,11 @@
     function cambiarFondo() {
       const randomIndex = Math.floor(Math.random() * imagenes.length);
       document.body.style.backgroundImage = imagenes[randomIndex];
+    }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(reg => console.log('Service worker registered!', reg))
+        .catch(err => console.error('Service worker registration failed:', err));
     }
   </script>
 </body>
